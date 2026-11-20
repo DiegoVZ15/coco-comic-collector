@@ -4,7 +4,7 @@
 
 Search for a series on Marmota and download one or more chapters as a single CBZ file you can copy to your phone.
 
-See the [CoCo web guide](https://coco-webpage.vercel.app/) for step-by-step instructions and help choosing a CBZ reader.
+See the [CoCo web guide](https://coco-webpage.vercel.app/en/index.html) for step-by-step instructions and help choosing a CBZ reader.
 
 ## Getting started on Windows
 
