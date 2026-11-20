@@ -2,7 +2,7 @@
 
 Busca una serie en Marmota y descarga uno o varios capítulos en un único CBZ para copiarlo a tu teléfono.
 
-Consulta la [guía web de CoCo](guia-web/dist/index.html) para ver el proceso paso a paso y elegir un lector CBZ.
+Consulta la [guía web de CoCo]([guia-web/dist/index.html](https://coco-webpage.vercel.app/)) para ver el proceso paso a paso y elegir un lector CBZ.
 
 ## Inicio en Windows
 
