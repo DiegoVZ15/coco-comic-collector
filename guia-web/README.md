@@ -2,9 +2,9 @@
 
 Abre `dist/index.html` en el navegador. La guía usa HTML, CSS y JavaScript, sin instalación ni compilación.
 
-- `dist/index.html` contiene los pasos, los lectores CBZ y las preguntas frecuentes.
+- `dist/index.html` contiene la guía en español y `dist/en/index.html` la versión en inglés. El enlace ES/EN cambia de idioma.
 - `dist/styles.css` define el diseño adaptable y la paleta en `:root`.
-- `dist/guide.js` controla el menú móvil, el filtro de lectores y la copia de comandos.
+- `dist/guide.js` comparte el menú móvil, el filtro de lectores y la copia de comandos entre ambas versiones.
 
 ## Enlazar el repositorio
 
@@ -12,7 +12,7 @@ En `dist/guide.js`, asigna a `repositoryUrl` la URL del repositorio público de 
 
 ## Publicar en Vercel desde GitHub
 
-1. Sube el proyecto a GitHub y confirma que `guia-web/dist/` contiene `index.html`, `styles.css`, `guide.js` y `assets/`.
+1. Sube el proyecto a GitHub y confirma que `guia-web/dist/` contiene `index.html`, `en/index.html`, `styles.css`, `guide.js` y `assets/`.
 2. En el panel de Vercel, elige **Add New → Project** e importa el repositorio.
 3. Selecciona `guia-web/dist` como **Root Directory** y **Other** como **Framework Preset**.
 4. Activa **Override** en **Build Command** y deja el campo vacío. Usa `.` como **Output Directory** si necesitas indicarlo manualmente.
