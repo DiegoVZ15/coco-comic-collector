@@ -1,4 +1,4 @@
-# ComicDL
+# CoCo - Comic Collector
 
 Busca una serie en Marmota y descarga uno o varios capítulos en un único CBZ para copiarlo a tu teléfono.
 
