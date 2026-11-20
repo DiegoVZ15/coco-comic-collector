@@ -61,7 +61,7 @@ def main():
     parser.add_argument("--destino", type=Path, default=Path(__file__).resolve().parents[1] / "descargas", help="Carpeta de los CBZ")
     args = parser.parse_args()
     sitio = MarmotaSitio()
-    print("ComicDL — Marmota")
+    print("CoCo — Marmota")
     print(f"Descargas en {args.destino.resolve()}")
     try:
         ejecutar(sitio, args.destino)

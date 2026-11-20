@@ -8,9 +8,9 @@ from unittest.mock import patch
 
 from PIL import Image
 
-from comicdl.descargador import crear_cbz
-from comicdl.models import Capitulo, Pagina
-from comicdl.seleccion import seleccionar
+from coco.descargador import crear_cbz
+from coco.models import Capitulo, Pagina
+from coco.seleccion import seleccionar
 
 
 class Respuesta:
@@ -50,7 +50,7 @@ class Comprobaciones(unittest.TestCase):
             with self.assertRaises(ValueError):
                 seleccionar(texto, 8)
 
-    @patch("comicdl.descargador.time.sleep")
+    @patch("coco.descargador.time.sleep")
     def test_cbz_y_reanudacion(self, dormir):
         sitio = SitioPrueba()
         capitulos = [Capitulo(str(i), f"Cap {i}", f"https://ejemplo/{i}") for i in (1, 3)]
@@ -66,7 +66,7 @@ class Comprobaciones(unittest.TestCase):
             crear_cbz(sitio, "Serie: prueba", capitulos, carpeta, lambda _: None)
             self.assertEqual(sitio.pedidos, 5)
 
-    @patch("comicdl.descargador.time.sleep")
+    @patch("coco.descargador.time.sleep")
     def test_interrupcion_conserva_cbz_y_paginas(self, dormir):
         sitio = SitioPrueba()
         capitulos = [Capitulo("1", "Cap 1", "https://ejemplo/1")]

@@ -1,8 +1,8 @@
-# ComicDL
+# CoCo
 
 Busca una serie en Marmota y descarga uno o varios capítulos en un único CBZ para copiarlo a tu teléfono.
 
-Consulta la [guía web de ComicDL](guia-web/dist/index.html) para ver el proceso paso a paso y elegir un lector CBZ.
+Consulta la [guía web de CoCo](guia-web/dist/index.html) para ver el proceso paso a paso y elegir un lector CBZ.
 
 ## Inicio en Windows
 
@@ -23,11 +23,11 @@ La carpeta `descargas/.progreso` conserva las imágenes verificadas. Puedes borr
 ## Uso desde terminal
 
 ```powershell
-.\.venv\Scripts\python.exe -m comicdl
-.\.venv\Scripts\python.exe -m comicdl --destino "D:\Comics"
+.\.venv\Scripts\python.exe -m coco
+.\.venv\Scripts\python.exe -m coco --destino "D:\Comics"
 .\.venv\Scripts\python.exe comprobar.py
 ```
 
-El adaptador consulta el buscador HTML y el endpoint de capítulos `/ajax/chapters/`. La extracción usa las imágenes del lector del sitio. Los cambios futuros de Marmota pueden requerir ajustes en `comicdl/sitios/madara.py`.
+El adaptador consulta el buscador HTML y el endpoint de capítulos `/ajax/chapters/`. La extracción usa las imágenes del lector del sitio. Los cambios futuros de Marmota pueden requerir ajustes en `coco/sitios/madara.py`.
 
 `pdf_to_cbz.py` se conserva como herramienta independiente y requiere instalar PyMuPDF en el entorno donde se ejecute. El menú principal descarga las páginas del lector directamente.

@@ -7,7 +7,7 @@ Centralizarla acá evita lo que pasaba en el script original: el
 `user_agent` estaba escrito a mano en una sola variable, y si mañana
 quieres cambiarlo (o agregar más headers) tendrías que buscarlo en
 cada archivo nuevo que crees. Con un único lugar, cualquier módulo que
-lo necesite hace `from comicdl.config import HEADERS`.
+lo necesite hace `from coco.config import HEADERS`.
 """
 
 USER_AGENT = (

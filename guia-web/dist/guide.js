@@ -1,4 +1,4 @@
-// Agrega la dirección del repositorio público, por ejemplo https://github.com/usuario/ComicDL.
+// Agrega la dirección del repositorio público, por ejemplo https://github.com/usuario/CoCo.
 const repositoryUrl = "";
 
 if (repositoryUrl) {

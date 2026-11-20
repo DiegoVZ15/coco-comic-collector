@@ -11,11 +11,11 @@ if not exist ".venv\listo" (
     if errorlevel 1 goto error
     echo listo>".venv\listo"
 )
-".venv\Scripts\python.exe" -m comicdl %*
+".venv\Scripts\python.exe" -m coco %*
 if errorlevel 1 goto error
 pause
 exit /b 0
 :error
-echo No se pudo iniciar ComicDL. Revisa el error anterior y que Python este instalado.
+echo No se pudo iniciar CoCo. Revisa el error anterior y que Python este instalado.
 pause
 exit /b 1
