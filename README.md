@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # CoCo
+=======
+# CoCo - Comic Collector
+>>>>>>> be574dfde322140a975da31d16523cdcede167ce
 
 Busca una serie en Marmota y descarga uno o varios capítulos en un único CBZ para copiarlo a tu teléfono.
 
