@@ -1,8 +1,8 @@
-# CoCo - Comic Collector
+# CoCo — Comic Collector
 
 Busca una serie en Marmota y descarga uno o varios capítulos en un único CBZ para copiarlo a tu teléfono.
 
-Consulta la [guía web de CoCo](guia-web/dist/index.html) para ver el proceso paso a paso y elegir un lector CBZ.
+Abre en el navegador la [guía web de CoCo](guia-web/dist/index.html). Las instrucciones para publicar la guía están en [el README web](guia-web/README.md).
 
 ## Inicio en Windows
 
